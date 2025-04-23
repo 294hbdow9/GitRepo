@@ -1,0 +1,189 @@
+/* Style Sheet for Parasite Web Page */
+
+
+@font-face {
+    font-family: pf;
+    src: url(fonts/parasite-font/Parasite-K7Zrp.ttf);
+}
+.pf{
+    font-family: pf;
+    text-align: center;
+}
+
+
+body{
+    margin:-10px;
+    background-color:rgba(255, 255, 255, 0.819);
+    background-image: url("images/parasite_bg.png");
+}
+#background{
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(235, 240, 235, 0);
+    min-height:2200px;
+}
+#container{
+    background-color:rgba(255, 255, 255, 0.616);
+    width:980px;
+    padding:25px;
+    margin:auto;
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.308);
+    border-radius:5px;
+    min-height:1000px;
+}
+
+
+.border-unity {
+    border:1px solid rgb(255, 255, 255);
+    box-shadow:3px 6px 5px rgba(0, 0, 0, 0.308);
+    border-radius:5px;
+    margin-bottom:10px;
+}
+hr{
+    fill: aliceblue;
+    height: 2px;
+    border: none;
+}
+
+
+#header{
+    background-image:url("images/white-rectangle.png");
+    background-size: 800px 40px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    background-color: rgba(205, 205, 205, 0);
+    background-blend-mode: lighten;
+    /* opacity: .5; changes opacity of everything but could still be useful*/
+    /* backdrop-filter: blur(8x); for later use blurs the background*/
+}
+#welcome {
+    font-size:100px;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    opacity: 1;
+    padding:20px;
+    text-shadow:6px 5px 6px rgba(18, 105, 32, 0.478);
+    line-height:0px;
+}
+#welcome:hover {
+    font-size:100px;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    padding:20px;
+    text-shadow:6px 5px 6px rgba(0, 0, 0, 0.354);
+    line-height:0px;
+    background-image:url("images/black-rectangle-png-1.png");
+    background-size: 800px 40px;
+    background-repeat: no-repeat;
+    background-position: 100px;
+    backdrop-filter: blur(10);
+}
+
+
+.nl-container {
+    padding: 5px;
+    display:flex;
+}
+.link{
+    background-image:url("images/white-rectangle.png");
+    background-size: 200px 20px;
+    background-repeat: no-repeat;
+    background-position: 60px;
+    color:white;
+    width:322px;
+    text-align:center;
+    line-height:50px;
+    text-decoration:none;
+    font-family: pf;
+    font-size: 25px;
+    background-color: rgba(30, 184, 122, 0.838);
+    box-shadow:3px 3px 5px rgba(0, 0, 0, 0.629);
+}
+.link:hover {
+    background-color:rgba(0,0,0, 0.85);
+    background-image:url(images/nothing.png);
+    color: rgb(30, 184, 122);
+}
+
+
+.img {
+    width:600px;
+    margin-left:190px;
+    margin-top:10px;
+}
+
+
+#content{
+    width: 980px;
+}
+h3 {
+    font-size: 35px;
+    padding-left: 30px;
+    font-weight:bolder
+}
+h4 {
+    padding-left: 30px;
+    font-size: 30px;
+    color: rgb(30, 184, 122);
+    text-shadow:2px 3px 2px rgba(255, 255, 255, 0.461);
+}
+.inside-content_info {
+    background-color:rgba(255, 255, 255, 0.463);
+    text-shadow:2px 3px 2px rgba(255, 255, 255, 0.647);
+    padding:5px
+}
+.title {
+    text-align:center;
+    font-family:pf;
+    font-size:40px;
+    color:rgb(0, 0, 0);
+}
+.tab {
+    padding-left:30px;
+    padding-right:30px;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    font-family:Montserrat2, Helvetica, sans-serif;
+}
+
+
+.character {
+    width:950px;
+    border:1px solid grey;
+    box-shadow:3px 3px 5px black;
+    margin:10px;
+    border-radius:5px;
+    float:left;
+}
+.character-pic {
+    width:auto;
+    height: 400px;
+    border:5px solid rgba(0, 0, 0, 0.434);
+    margin:10px;
+
+}
+.character-info {
+    float:right;
+    width:500px;
+    margin-top:150px;
+    color:rgb(255, 255, 255);
+    text-shadow:6px 3px 2px rgba(30, 184, 122, 0.935);
+    background-image:url("images/black-rectangle-png-1.png");
+    background-size: 625px 60px;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: -125px;
+    font-family: pf;
+}
+.character-info:hover {
+    float:right;
+    width:500px;
+    margin-top:150px;
+    color:rgb(0, 0, 0);
+    text-shadow:6px 3px 2px rgba(0, 0, 0, 0.935);
+    background-image:url("images/black-rectangle-png-1.png");
+    background-size: 625px 20px;
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-position: -125px;
+    font-family: pf;
+}
