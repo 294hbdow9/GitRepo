@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6 | JavaScript Pay Calculator</title>
+    <style>
+        table, tr, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td><label for="first">Hourly Pay:</label></td>
+                <td><input type="text" name="Pay" id="Pay" placeholder="Hourly pay here..." required></td>
+            </tr>
+            <tr>
+                <td><label for="last">Hours Worked:</label></td>
+                <td><input type="text" name="Hours" id="Hours" placeholder="Hours worked here..." required></td>
+            </tr>
+            <tr>
+                <td><label for="age">Tax Rate:</label></td>
+                <td><input type="text" name="Tax" id="Tax" placeholder="Tax rate percent here..." required></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Calculate" id="get-money"></td>
+            </tr>
+        </table>
+    </form>
+    <div id="display-info">
+        <br>
+        Your info will be displayed here:
+    </div>
+    <!-- Links script to HTML -->
+    <script src="js/c.js"></script>
+</body>
+</html>
