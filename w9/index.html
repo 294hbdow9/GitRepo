@@ -9,10 +9,9 @@
 </head>
 
 <body>
-	
-</body>
+	<p>this</p>
 
-<script type="text/javascript">
+	<script type="text/javascript">
 	//Use this Array of objects to complete the assignment.
 	var people =[
 		{first:"Jason", last:"Vorhees", credit:"Friday the 13th"},
@@ -23,8 +22,35 @@
 		{first:"Buzz", last:"Lightyear", credit:"Toy Story" },
 		{first:"Marion", last:"Cobretti", credit:"Cobra" }
 	]
+	// Stuff under until other comment is incorrect
 	var temP = document.createElement("div");
-	tmepP.setAttribute("id", "someIdName")
+	temP.setAttribute("class", "border");
+	// 
+
+	bodyTag = document.querySelector("body");
+	alert(bodyTag);
+	console.log(bodyTag);
+
+	for (let i = 0; i < people.length - 1; i++) {
+		var inst = people[i]
+		console.log(people[i].first, people[i].last, people[i].credit)
+		var tempDiv = document.createElement("div")
+		tempDiv.setAttribute("id", String(i))
+		tempDiv.setAttribute("class", "border")
+		console.log(tempDiv)
+		for (let i = 0; i < tempDiv.length - 1; i++) {
+			var tempP = document.createElement("p")
+			
+
+
+		}
+	}
+
+
+
 </script>
+</body>
+
+
 
 </html>
